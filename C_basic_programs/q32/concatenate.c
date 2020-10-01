@@ -13,5 +13,10 @@
         }
         s1[i] = '\0';
         printf("After concatenation: %s", s1);
+        //alternate method
+        cout<<"Concatenated String:"<<endl;
+    
+    strcat(s1, s2);
+    cout<<s1;
         return 0;
     }
